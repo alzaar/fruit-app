@@ -10,7 +10,6 @@ const NewFruit = (props) => {
       <input ref={input => formFields.description = input} placeholder='Description' />
       <button>Submit</button>
 
-       {console.log(formFields.name)}
     </form>
   );
 };
